@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Northline Coffee — a fictional neighborhood coffee shop serving thoughtful drinks and slow mornings." />
+    <title>Northline Coffee — Slow is a good thing</title>
+    <link rel="preload" as="image" href="assets/northline-coffee-hero.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="Northline Coffee, home">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span>Northline <em>Coffee</em></span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="sr-only">Open navigation</span>
+          <span></span><span></span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+          <a href="#menu">Menu</a>
+          <a href="#story">Our story</a>
+          <a href="#hours">Hours</a>
+          <a class="nav-cta" href="#contact">Find us <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-space" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Neighborhood coffee, considered</p>
+          <h1 id="hero-title">Slow is<br />a good thing.</h1>
+          <p class="hero-intro">A warm corner for bright cups, unhurried conversations, and your daily ritual—made with attention.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu">Explore the menu <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#story">Meet Northline <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note" aria-label="Open weekdays from 7 AM">
+            <span class="open-dot" aria-hidden="true"></span>
+            <span>Open today from 7:00 AM</span>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap">
+          <div class="hero-image-frame">
+            <img src="assets/northline-coffee-hero.jpg" alt="A latte with rosetta art on a walnut coffee table" />
+          </div>
+          <div class="hero-stamp" aria-hidden="true">
+            <svg viewBox="0 0 120 120" role="img">
+              <defs><path id="circlePath" d="M60,60 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0" /></defs>
+              <text><textPath href="#circlePath" startOffset="1%">NORTHLINE • TAKE A BREATH • </textPath></text>
+            </svg>
+            <span>✦</span>
+          </div>
+          <p class="image-caption">A little pause,<br />poured daily.</p>
+        </div>
+      </section>
+
+      <section class="featured section-space" id="menu" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> From the bar</p>
+            <h2 id="featured-title">Made for your<br />kind of morning.</h2>
+          </div>
+          <p class="section-lede">A small, seasonal menu built around well-sourced beans, good milk, and the comfort of familiar things.</p>
+        </div>
+
+        <div class="drink-grid">
+          <article class="drink-card drink-card-cream">
+            <div class="drink-art" aria-hidden="true">
+              <svg viewBox="0 0 140 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M39 54H101L94 129H46L39 54Z" fill="#D5A875"/>
+                <path d="M41 67H99" stroke="#F6EBDD" stroke-width="3"/>
+                <path d="M54 34C55 19 85 19 86 34V42C86 49 79 54 70 54C61 54 54 49 54 42V34Z" fill="#F6EBDD"/>
+                <path d="M48 75C65 87 79 87 94 75" stroke="#EFD4B5" stroke-width="3" opacity=".8"/>
+              </svg>
+            </div>
+            <div class="drink-info">
+              <p class="drink-number">01</p>
+              <h3>Oat Cloud</h3>
+              <p>Double espresso, silky oat milk, and a whisper of vanilla bean.</p>
+              <span class="price">₱180</span>
+            </div>
+          </article>
+
+          <article class="drink-card drink-card-mocha">
+            <div class="drink-art" aria-hidden="true">
+              <svg viewBox="0 0 140 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="70" cy="35" rx="35" ry="16" fill="#F4E5D0"/>
+                <path d="M35 35V102C35 121 105 121 105 102V35" fill="#B86F47"/>
+                <ellipse cx="70" cy="35" rx="35" ry="16" fill="#F4E5D0"/>
+                <path d="M51 35C61 25 80 25 90 35C80 45 61 45 51 35Z" fill="#79513E"/>
+                <path d="M105 54H116C126 54 128 83 105 83" stroke="#B86F47" stroke-width="10"/>
+                <path d="M60 33C65 30 75 30 80 33" stroke="#F4E5D0" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="drink-info">
+              <p class="drink-number">02</p>
+              <h3>House Cappuccino</h3>
+              <p>Northline espresso, velvet microfoam, and a touch of toasted cocoa.</p>
+              <span class="price">₱160</span>
+            </div>
+          </article>
+
+          <article class="drink-card drink-card-sage">
+            <div class="drink-art" aria-hidden="true">
+              <svg viewBox="0 0 140 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M41 35H99L92 128H48L41 35Z" fill="#E7DBC4"/>
+                <path d="M46 48H94" stroke="#94A287" stroke-width="4"/>
+                <path d="M51 29H89L92 39H48L51 29Z" fill="#C8D1C2"/>
+                <path d="M59 76C63 70 76 70 81 76C76 82 63 82 59 76Z" fill="#A8B59E"/>
+                <path d="M67 76C70 70 73 68 75 63" stroke="#F7F1E7" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="drink-info">
+              <p class="drink-number">03</p>
+              <h3>Garden Tonic</h3>
+              <p>Cold brew, citrus tonic, and a fresh sprig of rosemary.</p>
+              <span class="price">₱170</span>
+            </div>
+          </article>
+        </div>
+
+        <a class="menu-link" href="#contact">Ask about today’s full menu <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="story section-space" id="story" aria-labelledby="story-title">
+        <div class="story-aside">
+          <p class="vertical-label">OUR CORNER</p>
+          <div class="beans" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="story-main">
+          <p class="eyebrow"><span></span> About Northline</p>
+          <h2 id="story-title">A familiar place<br />for the everyday.</h2>
+          <div class="story-copy">
+            <p>Northline is a fictional neighborhood coffee shop imagined for the mornings you want to linger and the afternoons that need a reset.</p>
+            <p>We picture it as a simple, sun-washed room where coffee is prepared with care, the playlist stays low, and there’s always time for one more sip.</p>
+            <a class="text-link" href="#hours">Plan a visit <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="quote-block">
+          <svg aria-hidden="true" viewBox="0 0 56 44"><path d="M0 44V28.1C0 10.4 9.2 2.2 22.4 0v8.3c-6.7 1.4-10.2 5.5-10.5 12.2H22V44H0Zm34 0V28.1C34 10.4 43.2 2.2 56.4 0v8.3C49.7 9.7 46.2 13.8 45.9 20.5H56V44H34Z" fill="currentColor"/></svg>
+          <p>Good coffee,<br />room to breathe.</p>
+          <span>— The Northline idea</span>
+        </div>
+      </section>
+
+      <section class="visit section-space" id="hours" aria-labelledby="visit-title">
+        <div class="visit-header">
+          <div>
+            <p class="eyebrow"><span></span> Come by</p>
+            <h2 id="visit-title">The door is open.</h2>
+          </div>
+          <p>For a quick takeaway, a window seat, or a long catch-up with someone you like.</p>
+        </div>
+        <div class="visit-content">
+          <div class="address-block">
+            <p class="label">Find the fictional shop</p>
+            <address>214 Northline Avenue<br />Riverside, PH 3500</address>
+            <a class="directions" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hours-block">
+            <p class="label">Opening hours</p>
+            <dl>
+              <div><dt>Monday – Friday</dt><dd>7:00 AM – 6:00 PM</dd></div>
+              <div><dt>Saturday</dt><dd>8:00 AM – 6:00 PM</dd></div>
+              <div><dt>Sunday</dt><dd>8:00 AM – 4:00 PM</dd></div>
+            </dl>
+          </div>
+          <div class="visit-sun" aria-hidden="true">
+            <svg viewBox="0 0 140 140"><circle cx="70" cy="70" r="23"/><path d="M70 8v19M70 113v19M132 70h-19M27 70H8M114 26l-14 14M40 100l-14 14M114 114l-14-14M40 40L26 26"/></svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-space" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="eyebrow eyebrow-light"><span></span> Stay in the loop</p>
+          <h2 id="contact-title">There’s always<br />something brewing.</h2>
+          <p>Leave a note and we’ll imagine a reply from the Northline counter. This demo form works locally and won’t send your details anywhere.</p>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <label for="name">Your name</label>
+          <input id="name" name="name" autocomplete="name" placeholder="What should we call you?" required />
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+          <button class="button button-light" type="submit">Send a note <span aria-hidden="true">↗</span></button>
+          <p id="form-message" class="form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand-footer" href="#top" aria-label="Back to top">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span>Northline <em>Coffee</em></span>
+      </a>
+      <p>Fictional coffee shop concept · built for a slower scroll.</p>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"1954b47c125f43f8b4338b3c4f804e4f","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4a550471ce0e96f',t:'MTc5MTk2NzU4Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
