@@ -69,7 +69,7 @@ h2 { margin-bottom: 0; font-size: clamp(2.7rem, 4.8vw, 4.55rem); }
 .hero-stamp svg { position: absolute; inset: 5px; width: 109px; animation: spin 24s linear infinite; }
 .hero-stamp text { fill: currentColor; font: 8.2px var(--mono); letter-spacing: 1.9px; }
 .hero-stamp > span { font-size: 1.55rem; }
-.image-caption { position: absolute; left: -65px; bottom: 4px; margin: 0; color: var(--moss); font-family: var(--serif); font-size: 1.05rem; font-style: italic; line-height: 1.15; }
+.image-caption { position: absolute; left: -65px; bottom: -20px; margin: 0; color: var(--moss); font-family: var(--serif); font-size: 1.05rem; font-style: italic; line-height: 1.15; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 .featured { padding-top: 100px; padding-bottom: 113px; }
